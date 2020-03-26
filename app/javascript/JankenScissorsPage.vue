@@ -10,7 +10,7 @@
 export default {
   data: function () {
     return {
-      message: "Scissors!"
+      message: "チョキ！"
     }
   }
 }
