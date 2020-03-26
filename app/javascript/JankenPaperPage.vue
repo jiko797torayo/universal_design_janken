@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <p>{{ message }}</p>
+    <router-link :to="{ name: 'JankenRockPage'}">
+      <p>{{ message }}</p>
+    </router-link>
   </div>
 </template>
 

@@ -17,10 +17,13 @@ const router = new VueRouter({
     { path: '/',
       component: JankenRockPage },
     { path: '/janken/rock',
+      name: 'JankenRockPage',
       component: JankenRockPage },
     { path: '/janken/scissors',
+      name: 'JankenScissorsPage',
       component: JankenScissorsPage },
     { path: '/janken/paper',
+      name: 'JankenPaperPage',
       component: JankenPaperPage },
   ]
 })
