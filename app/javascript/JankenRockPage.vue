@@ -18,8 +18,8 @@ export default {
 </script>
 
 <style scoped>
-p {
-  font-size: 2em;
-  text-align: center;
+img {
+  display: block;
+  margin: auto;
 }
 </style>
