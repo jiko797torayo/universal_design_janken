@@ -1,12 +1,13 @@
 <template>
   <div id="app">
     <router-link :to="{ name: 'JankenScissorsPage'}">
-      <p>{{ message }}</p>
+      <img src="~images/guu.gif" />
     </router-link>
   </div>
 </template>
 
 <script>
+import "images/guu.gif"
 export default {
   data: function () {
     return {
