@@ -49,6 +49,7 @@ test:
 #
 production:
   <<: *default
-  database: universal_design_janken_production
-  username: universal_design_janken
-  password: <%= ENV['UNIVERSAL_DESIGN_JANKEN_DATABASE_PASSWORD'] %>
+  database: heroku_b5b05b919d7a41
+  username: b2e43f8beff312
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  # password: <%= ENV['UNIVERSAL_DESIGN_JANKEN_DATABASE_PASSWORD'] %>
