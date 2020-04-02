@@ -49,7 +49,8 @@ test:
 #
 production:
   <<: *default
-  database: heroku_b5b05b919d7a41
-  username: b2e43f8beff312
-  password: <%= ENV['DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: utf8
+  database: db/production.postgresql
+  url: <%= ENV['DATABASE_URL'] %>
   # password: <%= ENV['UNIVERSAL_DESIGN_JANKEN_DATABASE_PASSWORD'] %>
